@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .container label {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #313131;
+  }
+  
+  .container input {
+    border: 2px solid var(--purple-grey);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    color: var(--white);
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 1rem;
+    width: 80%;
+    font-family: "Inter";
+    font-weight: 500;
+  }
+  
+  .container input:hover {
+    border: 3px solid var(--white);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .container input:focus {
+    border-color: #9900ff;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+  }
+
+  
