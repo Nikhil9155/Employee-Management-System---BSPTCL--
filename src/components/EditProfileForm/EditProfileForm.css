@@ -1,4 +1,4 @@
-.Form{
+.Forms{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,24 +8,25 @@
     color: white;
 }
 
-form{
+.Forms{
     display: flex;
     flex-direction: column;
     width: 35vw;
     gap:2vh;
+    margin-left:33%;
 }
 
-form input:focus{
+.Forms input:focus{
     outline: 2px solid blueviolet;
     box-shadow: 0px 0px 10px 7px blueviolet;
 }
 
-form input:hover{
+.Forms input:hover{
       outline: 2px solid blueviolet;
     box-shadow: 0px 0px 10px 7px blueviolet;
 }
 
-form > *{
+.Forms > *{
     background-color: transparent;
     border: 1px solid white;
     padding: 0.9rem;
@@ -35,16 +36,16 @@ form > *{
     color: white;
 }
 
-form > button{
+.Forms > button{
     color : white;
     cursor:pointer;
 }
 
-form > button:hover{
+.Forms > button:hover{
     box-shadow: 0px 0px 10px 7px #7575f6;
 }
 
-form > .Loading{
+.Forms > .Loading{
 
     box-shadow: 0px 0px 10px 7px #7575f6;  
     border-top: 3px solid #7575f6;

@@ -113,7 +113,7 @@ const EditProfileForm = () => {
   }
 
   return (
-    <div className="Form">
+    <div className="Forms">
       <h1>Edit profile.</h1>
       <form onSubmit={handleSubmit}>
         <InputComponent
