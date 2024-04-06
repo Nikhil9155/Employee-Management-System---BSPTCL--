@@ -13,7 +13,6 @@ form{
     flex-direction: column;
     width: 35vw;
     gap:2vh;
-    /* margin-left: 33%; */
 }
 
 form input:focus{
