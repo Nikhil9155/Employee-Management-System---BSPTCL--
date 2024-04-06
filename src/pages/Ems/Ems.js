@@ -8,7 +8,7 @@ const Ems = () => {
   const [selectedEmployee, setSelectedEmployee] = useState(null);
 
   const generateId = () => {
-    return Math.floor(Math.random() * 1000); // Generate a random ID
+    return Math.floor(Math.random() * 10000); // Generate a random ID
   };
 
   const handleAddEmployee = employee => {

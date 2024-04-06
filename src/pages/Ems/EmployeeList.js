@@ -45,6 +45,7 @@ const EmployeeList = ({ employees, onEdit, onDelete }) => {
               <td>{employee.department}</td>
               <td>{employee.salary}</td>
               
+              
               <td>
                 <button onClick={() => onEdit(employee)}>Edit</button>
                 <button onClick={() => onDelete(employee.id)}>Delete</button>
